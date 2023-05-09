@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CPU Monitor</title>
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <!--
+    <div class="box">
+      <button id="open">Open</button>
+    </div>
+    <div class="box">
+      <button id="upload">Upload File</button>
+      <span class="label">Full Path</span>
+      <span id="full-path">-</span>
+    </div>
+    <div>
+      <div class="box">
+        <span class="label">CPU (%)</span>
+        <span id="cpu">-</span>
+      </div>
+      <div class="box">
+        <span class="label">Free Mem (%)</span>
+        <span id="mem">-</span>
+      </div>
+      <div class="box">
+        <span class="label">Total Mem (GB)</span>
+        <span id="total-mem">-</span>
+      </div>
+      <script src="renderer.js"></script>
+    </div>
+  -->
+  <div class="box">
+    <button id="open">Open Notepad</button>
+  </div>
+    <div class="container">
+      <h3>Add a person:</h3>
+      <div class="row">
+        <div class="five columns">
+          <label for="firstname">Firstname</label>
+          <input class="u-full-width" placeholder="John" id="firstname" type="text">
+        </div>
+        <div class="five columns">
+          <label for="lastname">Lastname</label>
+          <input class="u-full-width" placeholder="Doe" id="lastname" type="text">
+        </div>
+        <div class="two columns">
+          <label for="add" class="invisible">x</label>
+          <input class="button-primary" value="Add" id="add" type="button">
+        </div>
+      </div>
+  
+      <h3>All persons:</h3>
+      <table class="u-full-width">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="tablebody">
+        </tbody>
+      </table>
+    </div>
+    <!--<div>
+      <button id="callApi">Call me</button>
+    </div>
+    <p id="response">
+    </p>-->
+    <h1>
+      This is my auto-updated app
+    </h1>
+    <strong><div id="message">Status Message...</div></strong>
+    <p>
+      This app will demonstrate how we can apply an auto update to an application.
+    </p>
+    <script src="renderer.js"></script>
+  </body>
+</html>
